@@ -1,0 +1,26 @@
+{
+  "name": "crypto-currency-data",
+  "version": "1.0.0",
+  "description": "Provides the price and market cap of a given crypto-currency",
+  "main": "bootstrap.js",
+  "scripts": {
+    "start": "node bootstrap.js"
+  },
+  "keywords": [
+    "Docker",
+    "Node",
+    "NPM",
+    "CoinMarketCap"
+  ],
+  "author": "Michelle Grady",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "currency-formatter": "^1.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  }
+}
